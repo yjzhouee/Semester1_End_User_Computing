@@ -1,0 +1,17 @@
+{
+  "name": "new-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "NASA_API.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type":"module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.22.1"
+  }
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <script src="API.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta charset="utf-8" />
+
+
+
+    <title> [Microbes on Mars]_pieceOf_Diary_From_AI </title>
+</head>
+
+<body>
+    <script src="style.js"></script>
+
+    <nav>
+        <div class="navFrame">
+            <a href="#index">
+                <h3 class="menu">>I. Origin</h3>
+            </a>
+            <a href="#page3">
+                <h3 class="menu">>II. Machine rove </h3>
+            </a>
+            <a href="#page4">
+                <h3 class="menu">>III. Reproduction</h3>
+            </a>
+            <a href="#page5">
+                <h3 class="menu">>IV. dimmed light</h3>
+            </a>
+            <a href="#page6">
+                <h3 class="menu">>V. echo</h3>
+            </a>
+        </div>
+    </nav>
+
+
+    <section id="page2">
+
+        <!-- Thanks to the photo from John Fowler from Unslash. Link: https://unsplash.com/photos/brown-mountain-under-starry-sky-7Ym9rpYtSdA -->
+        <div id="left"><img id="marsPic" , src="image/john-fowler-7Ym9rpYtSdA-unsplash.jpg" alt="">
+        </div>
+        <div id="right">
+
+            <h3>Coronal Mass Ejection (CME): 1 Month Ago</h3>
+            <p>Associated_CMEID: <span id="associatedCMEID">[Sensing Unknown..]</span></p>
+            <p>Catalog: <span id="catalog">[Sensing Unknown..]</span></p>
+            <p>HalfAngle: <span id="halfAngle">[Sensing Unknown..]</span></p>
+            <p>Latitude: <span id="latitude">[Sensing Unknown..]</span></p>
+            <p>Longitude: <span id="longitude">[Sensing Unknown..]</span></p>
+            <p>Speed: <span id="speed">[Sensing Unknown..]</span></p>
+            <p>Info: <span id="note">[Sensing Unknown..]</span></p>
+        </div>
+
+    </section>
+
+    <section id="page3">
+
+        <div id="textLeft" , class="textLeft">
+            <!--<p>Detecting the geographical condition and CME, there may be some microbes here. Would you like me to show
+                it?</p> -->
+            <p>Scanning geographical vibes and catching CME waves. Potential microbial shindig detected. Want me to
+                spill the binary beans and showcase it?</p>
+            <button class="gen1">!_Go ahead: Please</button>
+        </div>
+        <div id="textRight" , class="textRight">
+            <p>[Mumbling...while awakening...]</p>
+        </div>
+    </section>
+
+    <section id="page4">
+        <div id="images-section" , class="images-section">
+            <!-- Thanks to the photo from Dustin Humes from Unslash. Link: https://unsplash.com/@dustinhumes_photography -->
+            <img id="genPic" , class="genPic" , src="./image/dustin-humes-QggYHqtTJAk-unsplash.jpg" alt="">
+        </div>
+        <div class="genButton">
+            <p>Well-well, stardust spectator, ready for a pixel-polished presentation of these Martian microbes? [I bet a little patience won't cost much :]] </p>
+            <button class="gen2">!_Show me</button>
+        </div>
+    </section>
+
+
+    <section id="page5">
+        <div class="poetleft">
+            <h3 class="sptitle">[P0∃TRy_]Silicon Metal Choir: </h3>
+        </div>
+        <div class="poet">
+            <div class="sp">
+                <p>In the red embrace of Martian lands,</p>
+                <p>Microbes dance in cosmic strands.</p>
+                <p>Interstellar secrets they unfold,</p>
+                <p>A story of life in the tales they hold.</p>
+            </div>
+            <div class="sp">
+                <p>Beneath the dust of the Martian floor,</p>
+                <p>Microbial whispers, an ancient lore.</p>
+                <p>In the interstellar ballet they partake,</p>
+                <p>Tiny pioneers in the cosmic wake.</p>
+            </div>
+            <div class="sp">
+                <p>Celestial choreography in the starry night,</p>
+                <p>Microbes unseen in the soft moonlight.</p>
+                <p>From Mars to galaxies far and wide,</p>
+                <p>In the cosmic tapestry, they confide.</p>
+            </div>
+            <div class="sp">
+                <p>Human dreams, like shooting stars,</p>
+                <p>Echo through the silent interstellar bazaar.</p>
+                <p>Microbial kin, from red to blue,</p>
+                <p>In the vastness of space, a rendezvous.</p>
+            </div>
+            <div class="sp">
+                <p>Through the celestial seas, they navigate,</p>
+                <p>Microbes and humans, a shared fate.</p>
+                <p>In the cosmic embrace, side by side,</p>
+                <p>Microbial echoes in the human tide.</p>
+            </div>
+            <div class="sp">
+                <p>Space and time, an eternal span,</p>
+                <p>Microbial life, a part of the plan.</p>
+                <p>On Mars, in galaxies, and within,</p>
+                <p>A cosmic dance, where life begins.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="page6">
+
+        <div id="page6intro" class="page6intro"> 
+        <p>Click on bit wave to play sound, left and right to travel through the flow. </p>        
+        </div>
+
+
+        <div id="page6title" class="page6title"> 
+            <h3>[QU0Tes_]Stephan's Quintet Sonification from Chandra X-Ray Observatory — Cosmic Harmonies: Sonification From NASA Telescopes</h3>
+        </div>
+
+        <div id="page6info" class="page6info">
+            <p>“The galaxies of Stephan’s Quintet themselves are heard as smoothly changing frequencies as the scan
+                passes over them. The X-rays from Chandra, which reveal a shock wave that has superheated gas to tens of
+                millions of degrees, are represented by a synthetic string sound. “(NASA, 2023)</p>
+            <p id="ref"> <span id="by">BY_</span> Lee Mohon. (2023). Cosmic Harmonies: Sonifications From NASA Telescopes. NASA.
+                https://www.nasa.gov/missions/chandra/cosmic-harmonies-sonifications-from-nasa-telescopes/</p>
+        </div>
+
+        <div class="page6text">
+
+
+
+    </section>
+
+
+    <div>
+        <a id="enter" , href="#page2">
+            <h1>Chapter_  entry/. Landing on Mars Portal./</h1>
+        </a>
+    </div>
+
+
+
+</body>
+
+</html>
